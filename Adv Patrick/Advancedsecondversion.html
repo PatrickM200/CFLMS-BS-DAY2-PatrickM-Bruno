@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Bootstarp day2</title>
+
+<style type="text/css">
+	
+	#output  {
+		background-color: grey !important
+	}
+
+	/*#navstyle {
+		height: 5vw;
+	}
+
+	#myNavbar {
+		position: relative;
+		right: 20vw;
+		top: 1vw;
+		height: 5vw;
+		color: white;
+
+	}*/
+
+</style>
+
+</head>
+<body>
+    <header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Actors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Daron Malakian</a>
+          <a class="dropdown-item" href="#">Serj Tankian</a>
+         <a class="dropdown-item" href="#">Shavo Odadjian</a>
+         <a class="dropdown-item" href="#">Ontronik Khachaturian</a>
+        </div>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Reviews</a>
+      </li>
+  </div>
+</nav>
+   
+</header>
+<main>
+<div class="row">
+  <div class="col-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Serj</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Daron</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Shavo</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Andy</a>
+    </div>
+  </div>
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">name: Serj Tankian, <br>
+      position: Singer, Keyboard, <br>
+      about: Serj Tankian born August 21, 1967 is an Armenian-American musician, singer, songwriter, record producer, poet, and political activist. He is best known as the lead vocalist, primary songwriter, keyboardist, and occasional rhythm guitarist of the heavy metal band System of a Down, which was formed in 1994</div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">name: "Daron Malakian", position: "Guitar, Singer", about: "Daron Vartan Malakian, born July 18, 1975 is an American musician, singer, songwriter, multi-instrumentalist, and record producer. He is best known as the guitarist, songwriter and second vocalist of the metal band System of a Down and as the lead vocalist, lead guitarist, multi-instrumentalist, and songwriter of the band Scars on Broadway. Malakian is known for his distinctive playing and is ranked 14th in Loudwire's list of Top 50 Hard Rock + Metal Guitarists of All Time and number 11 in MusicRadar's poll, The 20 Greatest Metal Guitarists Ever. He is placed 30th in Guitar World's list of The 100 Greatest Heavy Metal Guitarists of All Time. </div>
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">name: "JShavarsh Odadjian", position: "Bass", about: "Shavarsh Odadjian born April 22, 1974 is an Armenian-American musician, songwriter, multi-instrumentalist, music video director, and painter. He is best known as the bassist, backing vocalist and occasional songwriter of the Grammy Award-winning metal band System of a Down. During the band's hiatus from 2006 to 2010, Odadjian collaborated with Wu-Tang Clan founder RZA on a project called AcHoZeN, which contributed a number of songs to the motion picture Babylon A.D. A compilation album was released in 2015. Odadjian is also credited with the musical scoring of the film, alongside The Rza and Hans Zimmer. He originally used Gibson Thunderbird basses, a Fender Jazz Bass, an Ibanez BTB bass guitar, and a Music Man StingRay, but has since moved on to Warwick basses."</div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">name: "Ontronik Khachaturian", position: "Drums", about: "Ontronik Khachaturian born May 4, 1975 is an Armenian-American musician, producer and DJ. He is known for being the original drummer (1994–1997) of metal band System of a Down and founder/lead vocalist (1999–2002) of the alt-progressive rock band Mt. Helium, as well as the member of his band VoKee. He was also the founder/drummer/keyboardist and backing vocalist of KillMatriarch (2010-2012) and currently is working on his OnTronik™ as his solo project."</div>
+    </div>
+  </div>
+</div>
+
+  </main>    
+    
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
